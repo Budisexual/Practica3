@@ -13,7 +13,7 @@ Proyecto desarrollado en Unreal Engine para la Práctica 03 de Desarrollo de exp
 
 ## 2\. Contenido y minijuegos
 
-La experiencia reúne los siguientes minijuegos.  
+La experiencia reúne los siguientes minijuegos.
 
 ### 2.1. Bolos
 
@@ -21,7 +21,7 @@ La experiencia reúne los siguientes minijuegos.
 
 **Blueprints y elementos principales:**
 
-* `BP\\\_GrabComponent`: componente compartido del proyecto utilizado para agarrar objetos.
+* `BP\\\\\\\_GrabComponent`: componente compartido del proyecto utilizado para agarrar objetos.
 * Blueprint de la bola: **Bola**
 
 ### 2.2. Rompeobjetos — Wreck-It Ralph
@@ -31,7 +31,7 @@ La experiencia reúne los siguientes minijuegos.
 **Blueprints y elementos principales:**
 
 * GC\_pinata2: estructura que se rompe (se ha utilizado esta porque las estatuas importadas no funcionaban.)
-* `BP\\\_GrabComponent`: componente utilizado para agarrar el martillo.
+* `BP\\\\\\\_GrabComponent`: componente utilizado para agarrar el martillo.
 * Blueprint del martillo: **Martillo**
 
 ### 2.3. Mr. Potato
@@ -63,10 +63,10 @@ Importante: a veces un dardo a la primera no funciona, pero a la segunda siempre
 
 **Blueprints y elementos principales:**
 
-* `Dardo`: actor del dardo; incorpora `BP\\\_GrabComponent` y la variable `bHasScored` para evitar que un mismo dardo puntúe más de una vez.
+* `Dardo`: actor del dardo; incorpora `BP\\\\\\\_GrabComponent` y la variable `bHasScored` para evitar que un mismo dardo puntúe más de una vez.
 * `Diana`: detecta los impactos, detiene la simulación física del dardo, lo acopla a la diana y calcula la puntuación.
-* `WDM\\\_MarcadorDardos`: widget que muestra la puntuación acumulada.
-* `BP\\\_GrabComponent`: componente de agarre.
+* `WDM\\\\\\\_MarcadorDardos`: widget que muestra la puntuación acumulada.
+* `BP\\\\\\\_GrabComponent`: componente de agarre.
 * Funciones relevantes de `Dardo`: `GetHasScored` y `MarkAsScored`.
 * Función relevante de `Diana`: `CalcularPuntuacion`.
 * Función relevante del widget: `ActualizarPuntuacion`.
@@ -84,10 +84,9 @@ Importante: a veces un dardo a la primera no funciona, pero a la segunda siempre
 
 |Acción|Control|
 |-|-|
-|Agarrar / soltar objetos|**\[\[COMPLETAR: botón o gesto de cada mando]]**|
-|Desplazamiento|**\[\[COMPLETAR: control configurado]]**|
-|Teletransporte|**\[\[COMPLETAR: control configurado]]**|
-|Otras acciones|**\[\[COMPLETAR]]**|
+|Agarrar / soltar objetos|**Doble click a la rueda del raton**|
+|Desplazamiento|**WASD**|
+|Teletransporte|**Click a la rueda del raton**|
 
 
 
